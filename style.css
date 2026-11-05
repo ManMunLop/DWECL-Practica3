@@ -1,0 +1,20 @@
+#tablero {
+    display: grid;
+    grid-template-columns: repeat(15, 30px);
+    gap: 5px;
+}
+
+.casilla {
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.undido {
+    background-color: red;
+}
+
+.agua {
+    background-color: blue;
+}
